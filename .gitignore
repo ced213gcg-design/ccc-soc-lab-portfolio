@@ -1,0 +1,14 @@
+*.pcap
+*.pcapng
+*.log
+*.key
+*.pem
+*.env
+.env*
+secrets/
+private/
+credentials/
+customer_data/
+malware/
+__pycache__/
+*.pyc
