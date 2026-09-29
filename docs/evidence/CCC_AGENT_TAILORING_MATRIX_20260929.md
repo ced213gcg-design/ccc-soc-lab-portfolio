@@ -68,3 +68,11 @@ Old ccc-dell-bootstrap + ccc-network-restore: ARCHIVE AS EVIDENCE, DO NOT RESTOR
 - Human Command destructive target revalidation immediately before wipe.
 
 FINAL: FACT BEFORE CLAIM. PRESERVE BEFORE WIPE. SIMPLEST SUFFICIENT ARCHITECTURE.
+
+
+## SOURCE-OF-TRUTH CORRECTION — BUILD MODIFICATIONS
+- BUILD_MODIFICATION_AUTHORITY = GITHUB.
+- CCC build changes, implementation lineage, supersession history, upgrade records, and actual modification state must be derived from GitHub artifacts/commits/branches/PRs, not from Library summaries.
+- Library material is supporting doctrine/research/context only unless a GitHub artifact explicitly imports or ratifies it.
+- Until the exact GitHub modification artifacts are identified and reconciled, BUILD_MODIFICATION_STATE = UNKNOWN / NOT YET RECONCILED.
+- No rebuild payload, restoration package, or post-wipe CCC load may be generated from Library-only assumptions.
