@@ -79,3 +79,11 @@ Rule: FACT BEFORE CLAIM
 8. Recovery receipt generated.
 9. GitHub sanitized evidence log committed.
 10. ONLY THEN destructive wipe may move from HOLD to AUTHORIZED_EXECUTION.
+
+
+## SOURCE-OF-TRUTH CORRECTION — BUILD MODIFICATIONS
+- BUILD_MODIFICATION_AUTHORITY = GITHUB.
+- CCC build changes, implementation lineage, supersession history, upgrade records, and actual modification state must be derived from GitHub artifacts/commits/branches/PRs, not from Library summaries.
+- Library material is supporting doctrine/research/context only unless a GitHub artifact explicitly imports or ratifies it.
+- Until the exact GitHub modification artifacts are identified and reconciled, BUILD_MODIFICATION_STATE = UNKNOWN / NOT YET RECONCILED.
+- No rebuild payload, restoration package, or post-wipe CCC load may be generated from Library-only assumptions.
